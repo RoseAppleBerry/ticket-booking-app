@@ -18,7 +18,7 @@ function CreateEvent() {
     try {
       setIsLoading(true);
 
-      const response = await fetch("https://ticket-a8ez.onrender.com/event/create", {
+      const response = await fetch("app-mongo.s5im9.mongodb.net/event/create", {
         method: "POST",
         headers: {
           Authorization: `${token}`,

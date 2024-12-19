@@ -43,7 +43,7 @@ function Dashboard() {
 
   const fetchUserEvents = async (token) => {
     try {
-      const response = await fetch("https://ticket-a8ez.onrender.com/event", {
+      const response = await fetch("app-mongo.s5im9.mongodb.net/event", {
         headers: {
           Authorization: `${token}`,
           "Content-Type": "application/json",
